@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use a clean, sans-serif font for the entire page */
+    height: 100%;
+    text-align: center;
+}
+
+.head{
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    background-color: beige;
+    color: grey;
+    padding: 5px;
+    height: 9vw;
+    margin-bottom: 40px;
+}
+
+/* Style for the Pill Tracker heading */
+h1 {
+    color: #000000; /* Dark black color for better contrast */
+    font-weight: bold; /* Optional: Keep it bold */
+    text-align: center; /* Center the heading if desired */
+}
+
+/* Style for the input box */
+#newPillInput {
+    font-size: 18px; /* Increase the font size */
+    padding: 12px 16px; /* Add padding inside the input for better readability */
+    width: 100%; /* Make it take up the full width of its container */
+    max-width: 500px; /* Limit the maximum width */
+    margin-bottom: 10px; /* Add some space below */
+    border: 2px solid #ccc; /* Border to make the input more visible */
+    border-radius: 8px; /* Round the corners for a softer look */
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
+    font-weight: bold; /* Make the text bold */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use a clean, sans-serif font for the entire page */
+}
+
+/* Style for the Add Medicine button */
+#addPillButton {
+    font-size: 18px; /* Larger font size for the button */
+    padding: 14px 20px; /* Add padding to make the button easier to click */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px; /* Round corners */
+    cursor: pointer;
+    width: 100%; /* Make button take full width */
+    max-width: 200px; /* Limit max width */
+    font-weight: bold; /* Make button text bold */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/* Use a clean, sans-serif font for the entire page */
+}
+
+/* Make the button stand out on hover */
+#addPillButton:hover {
+    background-color: #45a049;
+}
+
+/* Style for the pill list items */
+#PillList li {
+    font-size: 20px; /* Larger font size for pill names */
+    margin: 10px 0; /* Space out the list items */
+    padding: 12px; /* Padding inside the list item */
+    background-color: #f4f4f4; /* Light gray background for better contrast */
+    border: 1px solid #ddd; /* Add border around list items */
+    border-radius: 8px; /* Round corners for list items */
+    display: flex; /* Flexbox layout for pill name and checkbox */
+    align-items: center; /* Vertically center checkbox and pill name */
+    font-weight: bold; /* Make the text bold */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use a clean, sans-serif font for the entire page */
+}
+
+/* Style for the checkboxes (optional) */
+#PillList input[type="checkbox"] {
+    margin-right: 15px; /* Extra space between checkbox and pill name */
+    transform: scale(1.5); /* Make the checkbox larger */
+}
+
+/* Style for the Remove button */
+.removeButton {
+    margin-left: 20px; /* Space between pill name and remove button */
+    padding: 8px 16px; /* Button padding */
+    font-size: 16px; /* Font size for the button */
+    background-color: #f44336; /* Red background for the remove button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+/* Remove button hover effect */
+.removeButton:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+/* Style for the pill output (feedback message) */
+#newPillOutput {
+    font-size: 48px; /* Significantly larger font size for better readability */
+    color: #000000; /* Black text for maximum contrast */
+    margin-top: 20px; /* Add some space above */
+    padding: 30px; /* Larger padding inside the box */
+    background-color: #ffff00; /* Bright yellow background for high contrast */
+    border: 4px solid #000000; /* Black border for better visibility */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    font-weight: bold; /* Make the text bold for emphasis */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Use a clean, readable font */
+    text-align: center; /* Center the text for better alignment */
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    width: 80%; /* Limit the width of the output box */
+    margin-left: auto; /* Center the box horizontally */
+    margin-right: auto; /* Center the box horizontally */
+    max-width: 600px; /* Limit the maximum width */
+    line-height: 1.5; /* Add more space between lines for better readability */
+}
